@@ -1,0 +1,9 @@
+0/10
+
+- Can you modify the matrix class to be (efficiently) movable
+
+Yes, I can.
+
+ Does that improve the benchmark?
+
+No, it does not.

@@ -1,0 +1,23 @@
+ Function pointers are used all of the time in C but not very much in C++
+ What features of C++ helped reduce the need for function pointers?
+
+Features of C++ such as polymorphism and virtual functions
+                        std::function which can make std::function<void (int, int)> afun
+                        template alias which simplifies the function pointer sintax
+                        template alias combined with variadic templates is a also a modern C++ alternative
+
+ Do you think these features improved the language? Why?
+
+Yes, I do think these features improved the language. Because they are neater, more efficient.
+First of all, these features make C++ more accessible to programmers. For example high level languanges programmer such as JAVA coders
+who had been working with polymorphism and functions. Second of all, is the ease of management, for example, just use the above,
+std::function, template alias which simplifies the function pointer syntax and template alias combined with variadic templates offered a modern C++ alternative,
+then there will be no need of tracking and managining the multiple and confusing/confliting function pointers all over in the program.
+Nevertheless, there will be a lost of freedom/flexibility if not using function pointer or even with the replacement above,
+because old C++ functional pointers can pass around instructions. This is a tremendous benefit for working in huge projects.
+because people many often rely on outputs produced by different modules, the need for having function pointers enable the passing of function pointers as arguments
+renaming and redirecting the outputs we need are critical for the flexbility and precision.
+
+Sources: Programs as Data: Function Pointers - http://www.cprogramming.com/tutorial/function-pointers.html
+         Why am I having trouble taking the address of a C++ function? https://isocpp.org/wiki/faq/pointers-to-members#addr-of-memfn
+         Member Function Pointers and the Fastest Possible C++ Delegates https://www.codeproject.com/Articles/7150/Member-Function-Pointers-and-the-Fastest-Possible?msg=4133395

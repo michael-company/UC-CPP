@@ -1,0 +1,5 @@
+//10/10
+//The techniques for avoiding deadlocks given in these slides aren not always sufficient for avoiding deadlocks.
+//Because there are other techniques, such as transactional processing, for which each resource keeps track of modifications from different threads,
+//need changes can be rolled back to some of the earlier commited changes, thus, the covered techniques
+//by simply following a single order and lock_guard aren't capable and far too simple to fail.

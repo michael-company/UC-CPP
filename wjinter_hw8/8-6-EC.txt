@@ -1,0 +1,6 @@
+- Send me a question for the committee by Sunday
+
+C++ had been constantly evolving in both small and broad scales with the helps from ANSI/ISO committee,
+but what features of C++ you would like to keep and what features of C++ you would like to remove in the future?
+
+

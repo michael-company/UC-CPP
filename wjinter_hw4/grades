@@ -1,0 +1,39 @@
+Total - 48/70
+
+4.1 - i am looking for a flusher  - 5/10
+
+class Flusher {
+public:
+  Flusher(ostream &_os) : os(_os) {}
+  ~Flusher() {
+    os.flush();
+  }
+private:
+  ostream &os;
+};
+
+
+4.1.extra - 8/10 -- good attempts
+
+4.2 - good - 10/10
+
+4.3 - good - 10/10
+
+4.4 - code - I am looking for RAII with smart pointers - 10/20
+4.4.b - explanations - 5/10
+
+    struct node
+    {
+      node(int key_value) : key_value(key_value) {}
+      node(node const &other) : key_value(other.key_value) {
+        if (other.left)
+          left = make_unique<node>(*other.left);
+        if (other.right)
+          right = make_unique<node>(*other.right);
+      }
+
+      int key_value;
+      unique_ptr<node> left;
+      unique_ptr<node> right;
+    };
+

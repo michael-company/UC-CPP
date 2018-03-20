@@ -1,0 +1,26 @@
+To answer "Why is C++ called C++ and not ++C?", I would like to disclose the background knowledge.
+
+In 1979, Bjarne Stroustrup began work on "C with Classes", the predecessor to C++. The "C with classes" was then
+renamed to C++ since C++ was the genius development from C. C++ was not created independently from C like Pascal
+in the 70s. Both "C with Classes" and C were designed to be general-purpose programming language. Pascal did firstly
+appeared in the 70s. However, Pascal is not a general-purpose programming language as C. However, "C with Classes" added
+"adding new features that included virtual functions, function name and operator overloading, references, constants,
+type-safe free-store memory allocation (new/delete), improved type checking, and BCPL style single-line comments
+with two forward slashes (//). Furthermore, it included the development of a standalone compiler for C++."
+
+Furthermore, syntaxically, x++ means x++ is post-increment of 1 to x and ++x means ++x is post-increment of 1 to x.
+For example: let x = C++, then x is equal to the value of C AFTER the increment/improvement in above words operation is done. where as
+             let x = ++C, then x is equal to the value of C BEFORE the increment/improvement in above words operation is done.
+
+Computer syntax, in essence, captures abstraction of logical/real world. Since in CS, syntactic ordering matter a lot as
+chronological ordering. And since Bjarne Stroustrup is a computer scientists and be in the arena of the world created
+by the computer scientists. It is nature  Bjarne Stroustrup would follow with the syntaxtic order and the abstraction
+from the real world in the 70s, the unique close relationship between "C with classes" and C to call C++ not ++C.
+
+
+References:
+
+[1] https://en.wikipedia.org/wiki/C%2B%2B
+[2] https://en.wikipedia.org/wiki/C_(programming_language)
+[3] https://en.wikipedia.org/wiki/Pascal_(programming_language)
+
